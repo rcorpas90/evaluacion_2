@@ -1,0 +1,58 @@
+#login {
+    width: 400px;
+    background-color: #deb887;
+    margin: auto;
+    margin-top: 5%;
+    border: solid 1px rgb(38, 37, 37);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+/* Estilo del botón */
+button {
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #e88e57;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #b37100;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(71, 13, 13);
+}
+
+#errorMsg {
+    background-color: rgb(205 108 108 / 49%);
+    ;
+    border: 1px solid rgb(121, 20, 20);
+    color: rgb(151, 5, 5);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}

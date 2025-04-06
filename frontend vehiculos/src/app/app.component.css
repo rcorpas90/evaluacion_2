@@ -1,0 +1,25 @@
+header {
+    background-color: #deb887;
+    height: 50px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+header a:hover {
+    color: white;
+}
+
+footer {
+    height: 50px;
+    background-color: #deb887;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}

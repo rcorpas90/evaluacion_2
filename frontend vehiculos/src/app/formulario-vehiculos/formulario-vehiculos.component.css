@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
